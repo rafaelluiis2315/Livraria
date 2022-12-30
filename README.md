@@ -52,3 +52,11 @@ Projeto contem um CRUD com Django, para gerenciamen de livros
         ~~~
 
 ## Fotos do Projeto
+Página Inicial (url:"")
+![livro_list](https://user-images.githubusercontent.com/98782405/210030236-20cb77d3-3132-471d-99f4-36e6415829e4.png)
+Página de cadastro (url:"livro_new/")
+![add_livros](https://user-images.githubusercontent.com/98782405/210030285-c253b67d-e1f2-44bd-9174-7b80a8d41d4c.png)
+Página de edição (url:"livro_edit/id_do_livro")
+![Edite_livro](https://user-images.githubusercontent.com/98782405/210030373-1b4177a6-26b5-4692-82c4-f44cca33e8b0.png)
+Página de remoção (url:"livro_remove/id_do_livro")
+![delete_livros](https://user-images.githubusercontent.com/98782405/210030403-033d12d5-83e4-4938-be89-60f73f531343.png)
