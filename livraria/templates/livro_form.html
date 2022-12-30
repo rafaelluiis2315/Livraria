@@ -1,0 +1,25 @@
+
+{% extends 'base.html' %}
+
+{% load django_bootstrap5 %}
+
+
+{% block title %}   
+   {{ titulo }}
+{% endblock title %}
+
+{% block tituloPagina %}
+   {{ titulo }}
+{% endblock tituloPagina %}
+
+{% block content %}
+
+    <form method="post" class="form">
+        {% csrf_token %}
+
+        {% bootstrap_form form layout="horizontal" %}
+
+        {% bootstrap_button button_type="submit" content="Salvar" %}
+    </form>
+
+{% endblock content %}
