@@ -1,5 +1,5 @@
 # Livraria
-Projeto contem um CRUD com Django, para gerenciamen de livros
+Projeto contem um CRUD com Django, para gerenciamen de livros, com criação de formularios reativos com o Django e django-bootstrap5
 
 
 ## Estrutura do Projeto
